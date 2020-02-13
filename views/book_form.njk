@@ -1,0 +1,8 @@
+{% include "includes/header.njk" %}
+
+<form action="/book/new" method="post">
+  <p>New book</p>
+  <label for="title">Enter the title of the book</label>
+  <input type="text" id="title" name="title"/>
+  <button type="submit">Submit</button>
+</form>
